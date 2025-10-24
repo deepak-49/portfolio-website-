@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand gradient-text fw-bold" href="#hero">DEEPAK</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <a href="/resume.pdf" class="btn btn-gradient ms-md-3" download>
+                            <i class="fas fa-download me-2"></i>Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div id="particles-js"></div>
+        <div class="gradient-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-logo animate-float">
+                    <div class="logo-glow"></div>
+                    <div class="logo-inner">MD</div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text" id="typing-text"></span>
+                </h1>
+                <p class="hero-subtitle">I build clean, responsive websites focused on speed and user experience.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-gradient btn-lg">View My Work</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">Get In Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/deepak-49" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mdeepakdeveloper/" class="social-icon"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="#contact" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-glow"></div>
+                        <img src="./aboutprofile.png" alt="Profile" class="about-image">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <h2 class="section-title gradient-text">About Me</h2>
+                    <p class="about-text">
+                        I’m Deepak, a front-end developer focused on crafting fast, interactive, and beautiful websites
+                        using HTML, CSS, JavaScript, and Bootstrap.
+                        I love clean code, modern design, and creating digital experiences that feel effortless and
+                        alive.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-code"></i>
+                            <h4>Frontend Developer</h4>
+                            <p>Html, Css, JavaScript, Bootstrap</p>
+                        </div>
+                        <!-- <div class="skill-card">
+                            <i class="fas fa-server"></i>
+                            <h4>Backend</h4>
+                            <p>Node.js, Python, PostgreSQL</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-palette"></i>
+                            <h4>Design</h4>
+                            <p>UI/UX, Figma, CSS</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Mobile</h4>
+                            <p>React Native, Flutter</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <h2 class="section-title gradient-text text-center mb-5 p-1">Featured Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./curconv.jpg" alt="Project 1">
+                            <div class="project-overlay">
+                                <a href="https://deepak-49.github.io/currency-converter/" class="btn btn-gradient">View
+                                    Project</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Currency Conventer</h3>
+                            <p>A Currency Converter built with HTML, CSS, and JavaScript that converts money between
+                                different currencies.
+                                It provides real-time conversion with a clean and interactive user interface.</p>
+                            <div class="project-tags">
+                                <span class="tag">Html</span>
+                                <span class="tag">Css</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+                                alt="Project 2">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-gradient">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Analytics Dashboard</h3>
+                            <p>Real-time data visualization for business insights</p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">D3.js</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop"
+                                alt="Project 3">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-gradient">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Social Media App</h3>
+                            <p>Connect and share with friends in real-time</p>
+                            <div class="project-tags">
+                                <span class="tag">React Native</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Redux</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Section -->
+    <section id="social" class="social-section section-padding">
+        <div class="container text-center">
+            <h2 class="section-title gradient-text mb-2">Let's Connect</h2>
+            <p class="social-subtitle">Follow me on social media for updates and insights</p>
+            <div class="social-links-large">
+                <a href="https://www.linkedin.com/in/mdeepakdeveloper/" class="social-link-large">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/deepak-49" class="social-link-large">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="section-title gradient-text text-center mb-4">Get In Touch</h2>
+                    <p class="text-center mb-5">Have a project in mind? Let's work together!</p>
+                    <form id="contactForm" class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                        required>
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message" placeholder="Your Message"
+                                        style="height: 150px" required></textarea>
+                                    <label for="message">Your Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-gradient btn-lg w-100">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>© 2025 Deepak portfolio copyrights reserved</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
