@@ -7,18 +7,20 @@
     <title>Portfolio website</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-expand-md navbar-dark sticky-top">
-        <div class="container">
+    <nav id="navbar" class="navbar navbar-expand-md sticky-top navbar-dark">
+        <div class="container-fluid">
             <a class="navbar-brand gradient-text fw-bold" href="#hero">DEEPAK</a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -27,10 +29,11 @@
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     <li class="nav-item">
-                        <a href="/resume.pdf" class="btn btn-gradient ms-md-3" download>
+                        <a href="./resume_deepak.pdf" class="btn btn-gradient ms-md-3" download>
                             <i class="fas fa-download me-2"></i>Resume
                         </a>
                     </li>
@@ -55,7 +58,7 @@
                 <p class="hero-subtitle">I build clean, responsive websites focused on speed and user experience.</p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-gradient btn-lg">View My Work</a>
-                    <a href="#contact" class="btn btn-outline-light btn-lg">Get In Touch</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
                 </div>
                 <div class="hero-social">
                     <a href="https://github.com/deepak-49" class="social-icon"><i class="fab fa-github"></i></a>
@@ -94,26 +97,65 @@
                             <h4>Frontend Developer</h4>
                             <p>Html, Css, JavaScript, Bootstrap</p>
                         </div>
-                        <!-- <div class="skill-card">
-                            <i class="fas fa-server"></i>
-                            <h4>Backend</h4>
-                            <p>Node.js, Python, PostgreSQL</p>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-palette"></i>
-                            <h4>Design</h4>
-                            <p>UI/UX, Figma, CSS</p>
-                        </div>
-                        <div class="skill-card">
-                            <i class="fas fa-mobile-alt"></i>
-                            <h4>Mobile</h4>
-                            <p>React Native, Flutter</p>
-                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- education -->
+
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-3">
+                    <span class="gradient-text">Education</span>
+                </h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12">
+                    <div class="card-custom p-4">
+                        <div class="d-flex justify-content-between align-items-start flex-wrap gap-3 ">
+                            <div class="d-flex gap-3">
+                                <div class="icon-box">
+                                    <i class="bi bi-mortarboard-fill gradient-text"></i>
+                                </div>
+                                <div>
+                                    <h4 class="mb-2">Bachelor of chemistry</h4>
+                                    <p class="gradient-text fw-semibold mb-0">MSS Wakf Board College Madurai</p>
+                                </div>
+                            </div>
+                            <div class="text-muted-custom">
+                                <i class="bi bi-calendar gradient-text"></i> 2022 - 2025
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="card-custom p-4">
+                        <div class="d-flex justify-content-between align-items-start flex-wrap gap-3">
+                            <div class="d-flex gap-3">
+                                <div class="icon-box">
+                                    <i class="bi bi-mortarboard-fill gradient-text"></i>
+                                </div>
+                                <div>
+                                    <h4 class="mb-2">Higher Secondary Education</h4>
+                                    <p class="gradient-text fw-semibold mb-0">Fusco’s Matriculation school Madurai</p>
+                                </div>
+                            </div>
+                            <div class="text-muted-custom">
+                                <i class="bi bi-calendar gradient-text"></i> 2020 - 2022
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Projects Section -->
     <section id="projects" class="projects-section section-padding">
@@ -123,21 +165,22 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
                         <div class="project-image">
-                            <img src="./curconv.jpg" alt="Project 1">
+                            <img src="./Untitled-1.jpg" alt="Project 1">
                             <div class="project-overlay">
-                                <a href="https://deepak-49.github.io/currency-converter/" class="btn btn-gradient">View
+                                <a href="https://deepak-49.github.io/VoltRide/" class="btn btn-gradient">View
                                     Project</a>
                             </div>
                         </div>
                         <div class="project-content">
-                            <h3>Currency Conventer</h3>
-                            <p>A Currency Converter built with HTML, CSS, and JavaScript that converts money between
-                                different currencies.
-                                It provides real-time conversion with a clean and interactive user interface.</p>
+                            <h3>Electric bike service</h3>
+                            <p>Electric Bike Service Project with Live Location enables users to book services and track
+                                bikes or technicians in real time website.It improves service efficiency, transparency,
+                                and customer satisfaction through live map tracking.</p>
                             <div class="project-tags">
                                 <span class="tag">Html</span>
                                 <span class="tag">Css</span>
                                 <span class="tag">JavaScript</span>
+                                 <span class="tag">Bootstrap</span>
                             </div>
                         </div>
                     </div>
@@ -145,19 +188,21 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
                         <div class="project-image">
-                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
-                                alt="Project 2">
+                            <img src="./chat translate img.png" alt="Project 2">
                             <div class="project-overlay">
-                                <a href="#" class="btn btn-gradient">View Project</a>
+                                <a href="https://deepak-49.github.io/translation-chat-app/" class="btn btn-gradient">View Project</a>
                             </div>
                         </div>
                         <div class="project-content">
-                            <h3>Analytics Dashboard</h3>
-                            <p>Real-time data visualization for business insights</p>
+                            <h3>Chat Translator</h3>
+                            <p>Built a real-time multilingual chat application supporting 12+ languages using
+                            Google translation APIs.Designed a mobile-friendly interface that improved message load speed by 20%.
+                            </p>
                             <div class="project-tags">
-                                <span class="tag">Vue.js</span>
-                                <span class="tag">D3.js</span>
-                                <span class="tag">Python</span>
+                                   <span class="tag">Html</span>
+                                <span class="tag">Css</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Bootstrap</span>
                             </div>
                         </div>
                     </div>
@@ -165,19 +210,18 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
                         <div class="project-image">
-                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop"
-                                alt="Project 3">
+                            <img src="./movie finder image.png" alt="Project 3">
                             <div class="project-overlay">
-                                <a href="#" class="btn btn-gradient">View Project</a>
+                                <a href="https://deepak-49.github.io/movie-finder/" class="btn btn-gradient">View Project</a>
                             </div>
                         </div>
                         <div class="project-content">
-                            <h3>Social Media App</h3>
-                            <p>Connect and share with friends in real-time</p>
+                            <h3>Movie finder</h3>
+                            <p>Developed a movie search platform using the OMDb API, managing 10,000+ movie records with optimized asynchronous requests.Improved search responsiveness by 25% and reduced API fetch latency by 20%, increasing user session retention.</p>
                             <div class="project-tags">
-                                <span class="tag">React Native</span>
-                                <span class="tag">Firebase</span>
-                                <span class="tag">Redux</span>
+                                <span class="tag">Html</span>
+                                <span class="tag">Css</span>
+                                <span class="tag">JavaScript</span>
                             </div>
                         </div>
                     </div>
@@ -209,45 +253,36 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="section-title gradient-text text-center mb-4">Get In Touch</h2>
-                    <p class="text-center mb-5">Have a project in mind? Let's work together!</p>
+                    <h2 class="section-title gradient-text text-center mb-5">Contact Us</h2>
+                    <!-- <p class="text-center mb-5">Have a project in mind? Let's work together!</p> -->
                     <form id="contactForm" class="contact-form">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                                    <label for="name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                        required>
-                                    <label for="email">Your Email</label>
-                                </div>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <label for="name" class="mb-2">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter Your Name"
+                                    required>
                             </div>
                             <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
-                                    <label for="subject">Subject</label>
-                                </div>
+                                <label for="email" class="mb-2">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter Your Email"
+                                    required>
                             </div>
+
                             <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" id="message" placeholder="Your Message"
-                                        style="height: 150px" required></textarea>
-                                    <label for="message">Your Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-gradient btn-lg w-100">
-                                    <i class="fas fa-paper-plane me-2"></i>Send Message
-                                </button>
+                                <label for="message" class="mb-3">Message</label>
+                                <textarea class="form-control mb-4" id="message" placeholder="Enter Your Message"
+                                    style="height: 220px" required></textarea>
                             </div>
                         </div>
-                    </form>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-gradient btn-lg w-100">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                        </div>
                 </div>
+                </form>
             </div>
+        </div>
         </div>
     </section>
 
@@ -257,6 +292,17 @@
             <p>© 2025 Deepak portfolio copyrights reserved</p>
         </div>
     </footer>
+
+    <!-- send-email  -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"> </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("cOkzrEytXGRsvIS6_");
+        })(); 
+    </script>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
